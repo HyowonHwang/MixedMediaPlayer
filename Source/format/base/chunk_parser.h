@@ -4,7 +4,7 @@
 #include <stdint.h>
 #include "macro/macro.h"
 
-namespace MMP {
+namespace mmp {
 namespace format {
 
 class ChunkParser {
@@ -16,5 +16,5 @@ class ChunkParser {
     MAKE_NONCOPYABLE(ChunkParser)
 };
 } // namespace format 
-} // namespace MMP 
+} // namespace mmp 
 #endif //_FORMAT_BASE_CHUNK_PARSER_H_

@@ -6,9 +6,11 @@ SET (LIBRARY_OUTPUT_PATH ../Build)
 
 # set dir for header
 INCLUDE_DIRECTORIES (.)
+SET(CMAKE_CXX_FLAGS "-ggdb --std=c++11 -Wall")
 
 # sources
 SET (LIBSRCS 
+  log/logger.cpp  
   format/base/chunk_parser.cpp  
 )
 
