@@ -13,7 +13,7 @@ const int LOG_FATAL = 3;
 const int LOG_MAX_LEVEL = 4;
 
 #define MMP_LOG(level) \
-  (Logger(level, false, __FILE__, __LINE__).message())
+  (log::Logger(level, false, __FILE__, __LINE__).message())
 
 namespace log {
 
